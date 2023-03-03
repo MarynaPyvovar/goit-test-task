@@ -7,7 +7,7 @@ function Card({ data }) {
         <li>
             <img src={avatar} alt={user} />
             <p>{tweets} tweets</p>
-            <p>{followers} followers</p>
+            <p>{followers} {followers === 1 ? "follower" : "followers"}</p>
             <Button isFollowed={isFollowed} id={id} />
         </li>
     )
