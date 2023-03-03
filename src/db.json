@@ -1,0 +1,82 @@
+{"usersList": [
+    {
+    "id": 1,
+    "user": "Me",
+    "tweets": 10,
+    "followers": 100500,
+    "isFollowed": false,
+    "avatar": "assets/avatars/avatar.png"
+},
+    {
+    "id": 2,
+    "user": "Myself",
+    "tweets": 100,
+    "followers": 10050,
+    "isFollowed": false,
+    "avatar": "assets/avatars/avatar.png"
+},
+    {
+    "id": 3,
+    "user": "I",
+    "tweets": 15,
+    "followers": 10500,
+    "isFollowed": false,
+    "avatar": "assets/avatars/avatar.png"
+},
+    {
+    "id": 4,
+    "user": "You",
+    "tweets": 200,
+    "followers": 100500,
+    "isFollowed": false,
+    "avatar": "assets/avatars/avatar.png"
+},
+    {
+    "id": 5,
+    "user": "He",
+    "tweets": 10,
+    "followers": 100500,
+    "isFollowed": false,
+    "avatar": "assets/avatars/avatar.png"
+},
+    {
+    "id": 6,
+    "user": "She",
+    "tweets": 10,
+    "followers": 500,
+    "isFollowed": false,
+    "avatar": "assets/avatars/avatar.png"
+},
+    {
+    "id": 7,
+    "user": "You-know-who",
+    "tweets": 10,
+    "followers": 100,
+    "isFollowed": false,
+    "avatar": "assets/avatars/avatar.png"
+},
+    {
+    "id": 8,
+    "user": "Incognito",
+    "tweets": 10,
+    "followers": 100,
+    "isFollowed": false,
+    "avatar": "assets/avatars/avatar.png"
+},
+    {
+    "id": 9,
+    "user": "Someone",
+    "tweets": 10,
+    "followers": 100,
+    "isFollowed": false,
+    "avatar": "assets/avatars/avatar.png"
+},
+    {
+    "id": 10,
+    "user": "It",
+    "tweets": 10,
+    "followers": 0,
+    "isFollowed": false,
+    "avatar": "assets/avatars/avatar.png"
+}
+]}
