@@ -2,6 +2,7 @@
   "name": "goit-test-task",
   "version": "0.1.0",
   "private": true,
+  "homepage": "https://marynapyvovar.github.io/goit-test-task/",
   "dependencies": {
     "@emotion/react": "^11.10.6",
     "@emotion/styled": "^11.10.6",
