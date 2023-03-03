@@ -1,6 +1,6 @@
-import React from 'react';
 import { useDispatch } from 'react-redux';
 import { toggleFollowing } from 'redux/usersSlice';
+import { CardButton } from 'components/Button/Button.styled';
 
 function Button({ isFollowed, id }) {
     const dispatch = useDispatch();
@@ -10,9 +10,9 @@ function Button({ isFollowed, id }) {
     }
     
     return (
-        <button onClick={handleClick}>
+        <CardButton onClick={handleClick} accent={isFollowed}>
             {isFollowed ? "Following" : "Follow"}
-        </button>
+        </CardButton>
     )
 }
 

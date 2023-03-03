@@ -1,15 +1,15 @@
 import Card from 'components/Card/Card';
-import React from 'react';
 import { useSelector } from 'react-redux';
 import { getUsers } from 'redux/usersSlice';
+import { List } from 'components/CardList/CardList.styled';
 
 function CardList() {
     const { users } = useSelector(getUsers);
 
     return (
-        <ul>
+        <List>
             {users.map((user => <Card key={user.id} data={user} />))}
-        </ul>
+        </List>
     )
 }
 
